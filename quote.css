@@ -1,0 +1,54 @@
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-transform:capitalize;
+    font-family:cursive;
+}
+
+#container{
+    text-align:center;
+    border:0.1vw solid black;
+    background-color:rgb(90, 245, 155);
+    padding:5vw;
+    border-radius:4vw;
+    flex:0 0 80%;
+}
+
+#heading{
+    color:blue;
+}
+
+#btn{
+    border:0.1vw solid white;
+    color: white;
+    background-color:rgba(0,0,0,0.8);
+    border-radius: 4vw;
+    outline:none;
+    padding:.5vw 1vw;
+    text-transform:capitalize;
+}
+
+#btn:hover{
+    background-color: rgb(0,0,0);
+    border:0.1vw solid blue;
+    cursor: pointer;
+    color:blue;
+}
+
+#btn:active{
+    background-color: rgba(0,0,0,0.8);
+}
+
+#quoteblock{
+    background-color:rgb(90, 245, 170);
+    border-left:2vw solid rgb(72, 194, 119);
+    margin:1vw;
+    padding:2vw;
+    border-radius:0 3vw 3vw 0;
+}
+
+#quote,#authorname{
+    font-style:italic;
+}
